@@ -8,24 +8,53 @@
     <!-- tailwind cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <title>ASSIGNMENT-002 😎</title>
 </head>
 
-<body>
+<body class="font-[Noto]">
     <header class="">
         <!-- nav section start -->
         <nav class="  w-[80%] flex mx-auto mt-3 lg:mt-7 items-center justify-between">
             <img class="h-10 lg:h-20" src="./assets/logo.png" alt="shop logo">
             <ul class="flex list-none">
-                <li class="mr-12 hidden lg:block"><a href="">Home</a></li>
-                <li class="mr-12 hidden lg:block"><a href="">Shop</a></li>
-                <li class="mr-12 hidden lg:block"><a href="">About us</a> </li>
+                <li class="mr-12 hidden lg:block font-bold"><a href="">Home</a></li>
+                <li class="mr-12 hidden lg:block text-[#8987A1]"><a href="">Shop</a></li>
+                <li class="mr-12 hidden lg:block text-[#8987A1]"><a href="">About us</a> </li>
                 <li class="ml-1"><a href=""><img class="" src="./assets/shopping-cart.png" alt=""></a>
                 <li class="ml-1">Cart ($56)</li>
             </ul>
 
         </nav>
         <!-- nav section end -->
+
+        <!-- banner section start -->
+
+        <section class="banner-section w-full lg:w-[80%] p-2 flex flex-col-reverse lg:flex-row mt-2 lg:my-28 lg:mx-auto lg:flex lg:justify-between
+       lg:items-end">
+            <div class="banner-content w-full lg:w-[45%] ">
+                <h2 class="text-6xl font-bold -">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h2>
+                <p class="text-[#00000050] text-xl">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.
+                    From classic roses to
+                    exotic blooms, we
+                    offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+
+            </div>
+
+            <div class="banner-image">
+                <img class="w-full mb-3 lg:mb-0" src="./assets/hero-flower.png" alt="">
+
+            </div>
+
+        </section>
+
+        <!-- banner section end -->
     </header>
 
     <!-- main section start -->
