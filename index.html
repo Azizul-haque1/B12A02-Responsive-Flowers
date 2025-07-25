@@ -20,7 +20,7 @@
 <body class="font-[Noto] w-full lg:w-[100%] mx-auto">
     <header class="">
         <!-- nav section start -->
-        <nav class="  w-[80%] flex mx-auto mt-3 lg:mt-7 p-2 items-center justify-between">
+        <nav class=" w-full mx-auto lg:w-[80%] flex  mt-3 lg:mt-7 p-2 items-center justify-between">
             <img class="h-10 lg:h-20" src="./assets/logo.png" alt="shop logo">
             <ul class="flex list-none">
                 <li class="mr-12 hidden lg:block font-bold"><a href="">Home</a></li>
@@ -82,9 +82,7 @@
                     offer a wide variety of fresh.</p>
             </div>
 
-
-
-            <div class="plants-card-container grid grid-cols-2 c-center lg:grid-cols-4 mt-10 gap-5">
+            <di class="plants-card-container justify-items-center grid grid-cols-2 c-center lg:grid-cols-4 mt-10 gap-5">
                 <div class="plants-card w-[171px] lg:w-[270px] text-center">
                     <img class="mb-7" src="./assets/sample-flower-image.png" alt="">
                     <h6 class="text-2xl">Lily Blossom</h6>
@@ -135,7 +133,7 @@
                 </div>
 
 
-            </div>
+            </di>
 
 
         </section>
@@ -147,8 +145,12 @@
 
         <section class="plants-lover-section lg:w-[80%] mx-auto mt-6 lg:mt-[200px]">
             <div class="plants-lover-container flex flex-col  lg:flex lg:flex-row items-center justify-between p-2">
-                <div class="plants-lover-image lg:w-[50%] ">
+                <div class="plants-lover-image relative mb-4 lg:w-[50%] ">
                     <img class="w-full block" src="./assets/flower-store.png" alt="">
+                    <img class="absolute w-[286px] hidden  lg:block top-[-20%] right-[-20%]"
+                        src="./assets/trusted-badge.png" alt="">
+
+
                 </div>
                 <div class="plants-lover-content w-full lg:w-[45%] pr-5 pl-7 font-normal ml-3">
                     <h3 class=" text-2xl lg:text-5xl font-bold mb-5">Flower & Plants Lover</h3>
@@ -233,9 +235,8 @@
 
         <!--join section start  -->
 
-        <section class="join-section  lg:w-[100%] lg:mx-auto bg-[url(./assets/news-letter-bg.png)]">
-            <div
-                class=" bg-cover text-center flex items-center justify-center  bg-no-repeat mx-auto h-[276px] lg:h-[533px]">
+        <section class="join-section bg-cover lg:w-[100%] lg:mx-auto bg-[url(./assets/news-letter-bg.png)]">
+            <div class="  text-center flex items-center justify-center  bg-no-repeat mx-auto h-[276px] lg:h-[533px]">
                 <div class="">
                     <h1 class=" text-xl font-semibold lg:text-5xl text-white mb-6">Join the colorful Bunch</h1>
                     <div class="flex items-center justify-center w-full h-full"><input
